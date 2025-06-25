@@ -1,34 +1,36 @@
 export const projects = [
   {
     id: 1,
-    title: 'AI Chatbot Assistant',
+    title: 'Deep Learning-Based Lung Cancer Classification',
     description:
-      'A conversational AI chatbot built with Python and TensorFlow, capable of understanding natural language and providing intelligent responses.',
-    live_demo_url: 'https://example.com/chatbot',
-    github_url: 'https://github.com/rohailahmad-code/ai-chatbot',
+      'This project implements and compares two deep learning architectures — AlexNet and YOLOv9 — for classifying lung cancer using histopathological images.',
+    live_demo_url: null,
+    github_url:
+      'https://github.com/rohailahmad-code/Lung-Cancer-Histopathological-Images-Classification',
   },
   {
     id: 2,
-    title: 'Computer Vision Image Classifier',
+    title: 'AI vs Human Text Classification',
     description:
-      'Deep learning model for image classification using CNNs, trained on custom dataset with 95% accuracy.',
+      'ANN and LSTM models were successfully built and trained to classify text as AI-generated or human-written. The LSTM model exhibited slightly better performance with an accuracy of around 87% on the test dataset.',
     live_demo_url: null,
-    github_url: 'https://github.com/rohailahmad-code/image-classifier',
+    github_url:
+      'https://github.com/rohailahmad-code/AI-Vs-Human-text-Classification',
   },
   {
     id: 3,
-    title: 'Data Analytics Dashboard',
+    title: 'WhatsApp Chat Analyzer',
     description:
-      'Interactive dashboard built with React and D3.js for visualizing complex datasets and generating insights.',
-    live_demo_url: 'https://example.com/dashboard',
-    github_url: 'https://github.com/rohailahmad-code/analytics-dashboard',
+      'This project aims to extract meaningful insights from WhatsApp chat data using a combination of statistical analysis, visualization, and sentiment analysis techniques. Implemented in Python with a Streamlit interface',
+    live_demo_url: null,
+    github_url: 'https://github.com/rohailahmad-code/Whatsapp-Chat-Analyzer',
   },
   {
     id: 4,
-    title: 'NLP Sentiment Analysis Tool',
+    title: 'Face Mask Detection',
     description:
-      'Natural Language Processing tool for analyzing sentiment in text data using BERT and transformer models.',
+      'Face Mask Detection is a computer vision-based deep learning project that aims to automatically identify whether a person is wearing a mask or not in real-time. ',
     live_demo_url: null,
-    github_url: 'https://github.com/rohailahmad-code/sentiment-analysis',
+    github_url: 'https://github.com/rohailahmad-code/Face-Mask-Detection',
   },
 ];

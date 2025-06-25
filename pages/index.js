@@ -93,7 +93,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="flex justify-center">
             <img
-              src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+              src="images/Alien.png"
               alt="Profile"
               className="rounded-full w-40 h-40 object-cover"
             />
