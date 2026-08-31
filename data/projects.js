@@ -10,7 +10,7 @@ export const projects = [
     github_url: 'https://github.com/rohailahmad-code/Lung-Cancer-Histopathological-Images-Classification',
     live_demo_url: null,
     bib_url: '#',
-    image: '/images/lung-cancer.png',
+    image: 'images/lung-cancer.png',
     type: 'Project',
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
     github_url: 'https://github.com/rohailahmad-code/AI-Vs-Human-text-Classification',
     live_demo_url: null,
     bib_url: '#',
-    image: '/images/text-classification.png',
+    image: 'images/text-classification.png',
     type: 'Project',
   },
   {
@@ -38,7 +38,7 @@ export const projects = [
     github_url: 'https://github.com/rohailahmad-code/Whatsapp-Chat-Analyzer',
     live_demo_url: null,
     bib_url: '#',
-    image: '/images/chat-analyzer.png',
+    image: 'images/chat-analyzer.png',
     type: 'Project',
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     github_url: 'https://github.com/rohailahmad-code/Face-Mask-Detection',
     live_demo_url: null,
     bib_url: '#',
-    image: '/images/mask-detection.png',
+    image: 'images/mask-detection.png',
     type: 'Project',
   },
 ];
