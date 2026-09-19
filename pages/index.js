@@ -37,7 +37,7 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-x-2 gap-y-1 text-sm text-zinc-500 dark:text-zinc-400 font-medium">
                 <a href="mailto:rohailahmad2226@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">Email</a>
                 <span>/</span>
-                <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">CV</a>
+                <a href="/ROHAIL_CV.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">CV</a>
                 <span>/</span>
                 <a href="https://github.com/rohailahmad-code" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">GitHub</a>
                 <span>/</span>
