@@ -25,7 +25,7 @@ export default function Home() {
                 <p>
                   With a solid foundation in machine learning, deep learning, and development, I bring 
                   a blend of technical skills to design systems that are both intelligent and 
-                  responsible. Sometime I write <Link href="/blogs" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">here</Link> about 
+                  responsible. Sometime I write <a href="https://understandableai.bearblog.dev/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">here</a> about 
                   artificial intelligence, computer vision, and my thoughts on technology.
                 </p>
                 <p className="italic text-zinc-500 dark:text-zinc-400 text-sm">
@@ -40,8 +40,6 @@ export default function Home() {
                 <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">CV</a>
                 <span>/</span>
                 <a href="https://github.com/rohailahmad-code" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">GitHub</a>
-                <span>/</span>
-                <a href="https://www.kaggle.com/rohailahmad" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Kaggle</a>
                 <span>/</span>
                 <a href="https://www.linkedin.com/in/rohail-ahmad-8995bb209/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">LinkedIn</a>
                 <span>/</span>
@@ -103,7 +101,12 @@ export default function Home() {
                       {project.pdf_url && (
                         <a href={project.pdf_url} target="_blank" rel="noopener noreferrer" className="hover:underline">pdf</a>
                       )}
-                      {project.pdf_url && <span>/</span>}
+                      {project.pdf_url && (project.thesis_url || project.github_url || project.live_demo_url) && <span>/</span>}
+                      
+                      {project.thesis_url && (
+                        <a href={project.thesis_url} target="_blank" rel="noopener noreferrer" className="hover:underline">thesis</a>
+                      )}
+                      {project.thesis_url && (project.github_url || project.live_demo_url) && <span>/</span>}
                       
                       {project.github_url && (
                         <a href={project.github_url} target="_blank" rel="noopener noreferrer" className="hover:underline">code</a>
@@ -113,13 +116,6 @@ export default function Home() {
                         <>
                           <span>/</span>
                           <a href={project.live_demo_url} target="_blank" rel="noopener noreferrer" className="hover:underline">demo</a>
-                        </>
-                      )}
-                      
-                      {project.bib_url && (
-                        <>
-                          <span>/</span>
-                          <a href={project.bib_url} className="hover:underline">bib</a>
                         </>
                       )}
                     </div>
