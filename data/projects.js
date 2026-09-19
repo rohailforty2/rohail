@@ -6,7 +6,7 @@ export const projects = [
     venue: 'NLP & Speech Synthesis Application, 2024',
     description:
       'A complete Urdu TTS and Voice Cloning system using a fine-tuned ChatterBox TTS v0.1.2 model. Converts Urdu text into natural speech and clones a user\'s voice from a short reference audio. Features a React + Vite frontend, FastAPI backend, JWT authentication, audio history, and a real-time 3D audio visualizer.',
-    thesis_url: '#',
+    thesis_url: '/Urdu_TTS_Thesis.pdf',
     github_url: 'https://github.com/rohailahmad-code/Urdu-text-to-speech',
     live_demo_url: null,
     image: 'images/urdu-tts.png',
