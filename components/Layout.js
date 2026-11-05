@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navigation from './Navigation';
+import { assetPath } from '../lib/assetPath';
 import { useEffect, useState } from 'react';
 
 const Layout = ({
@@ -33,6 +34,7 @@ const Layout = ({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta charSet="UTF-8" />
+        <link rel="icon" href={assetPath('favicon.ico')} />
         <script dangerouslySetInnerHTML={{
           __html: `
             try {

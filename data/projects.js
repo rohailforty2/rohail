@@ -1,15 +1,40 @@
 export const projects = [
   {
+    id: 6,
+    title: 'Re-examining ASSERT: An Open-Model Replication and a Scenario-Level Re-analysis of Released Outputs',
+    authors: 'Rohail Ahmad',
+    venue: 'Independent Research · Zenodo Preprint, 2026',
+    description:
+      "An open-model replication of ASSERT (Mei et al., EMNLP 2023 Findings), a framework for stress-testing LLM safety with paraphrased, bootstrapped, and adversarial inputs. Re-runs the pipeline with Qwen2.5-7B-Instruct on SafeText (1,095 safe / 370 unsafe scenarios) under greedy decoding and two-proportion z-tests, and re-analyses the authors' released outputs at the scenario level.",
+    paper_url: 'https://doi.org/10.5281/zenodo.23863456',
+    github_url: 'https://github.com/rohailforty2/assert-qwen-repro',
+    live_demo_url: 'https://rohailforty2.github.io/assert-qwen-repro/',
+    image: 'projects/assert.png',
+    type: 'Preprint',
+  },
+  {
+    id: 7,
+    title: 'Instruction–Data Separation under Paraphrased Probes (SEP × ASSERT)',
+    authors: 'Rohail Ahmad',
+    venue: 'Independent Research, 2026 – Present',
+    description:
+      'Tests whether instruction–data separation, as measured by the SEP benchmark and the ASIDE method (Zverev et al.), holds when probe instructions are paraphrased using ASSERT-style semantically aligned augmentation. The goal is to check whether reported separation reflects real model behaviour or depends on the exact wording of the probes.',
+    github_url: null,
+    live_demo_url: null,
+    image: 'projects/sep-assert.png',
+    type: 'Ongoing',
+  },
+  {
     id: 1,
     title: 'Urdu Text-to-Speech & Voice Cloning',
     authors: 'Rohail Ahmad',
-    venue: 'NLP & Speech Synthesis Application, 2024',
+    venue: 'Undergraduate Thesis, PAF-IAST, 2025–2026',
     description:
       'A complete Urdu TTS and Voice Cloning system using a fine-tuned ChatterBox TTS v0.1.2 model. Converts Urdu text into natural speech and clones a user\'s voice from a short reference audio. Features a React + Vite frontend, FastAPI backend, JWT authentication, audio history, and a real-time 3D audio visualizer.',
     thesis_url: '/Urdu_TTS_Thesis.pdf',
-    github_url: 'https://github.com/rohailahmad-code/Urdu-text-to-speech',
+    github_url: 'https://github.com/rohailforty2/Urdu-text-to-speech',
     live_demo_url: null,
-    image: 'images/urdu-tts.png',
+    image: 'images/urdu-tts.webp',
     type: 'Project',
   },
   {
@@ -20,9 +45,9 @@ export const projects = [
     description:
       'This project implements and compares two deep learning architectures — AlexNet and YOLOv9 — for classifying lung cancer using histopathological images. The comparative analysis evaluates precision, recall, and detection latency across architectures.',
     pdf_url: '/lung-cancer-report.pdf',
-    github_url: 'https://github.com/rohailahmad-code/Lung-Cancer-Histopathological-Images-Classification',
+    github_url: 'https://github.com/rohailforty2/Lung-Cancer-Histopathological-Images-Classification',
     live_demo_url: null,
-    image: 'images/lung-cancer.png',
+    image: 'images/lung-cancer.webp',
     type: 'Project',
   },
   {
@@ -33,9 +58,9 @@ export const projects = [
     description:
       'ANN and LSTM models were successfully built and trained to classify text as AI-generated or human-written. The LSTM model exhibited superior sequential processing performance with an accuracy of around 87% on the validation dataset.',
     pdf_url: '/ai-human-text-classification-report.pdf',
-    github_url: 'https://github.com/rohailahmad-code/AI-Vs-Human-text-Classification',
+    github_url: 'https://github.com/rohailforty2/AI-Vs-Human-text-Classification',
     live_demo_url: null,
-    image: 'images/text-classification.png',
+    image: 'images/text-classification.webp',
     type: 'Project',
   },
   {
@@ -46,9 +71,9 @@ export const projects = [
     description:
       'This project extracts meaningful insights from raw WhatsApp chat logs using a combination of statistical analysis, visualization, and sentiment analysis techniques. Implemented in Python with an interactive Streamlit interface.',
     pdf_url: '/whatsapp-chat-analyzer-report.pdf',
-    github_url: 'https://github.com/rohailahmad-code/Whatsapp-Chat-Analyzer',
+    github_url: 'https://github.com/rohailforty2/Whatsapp-Chat-Analyzer',
     live_demo_url: null,
-    image: 'images/chat-analyzer.png',
+    image: 'images/chat-analyzer.webp',
     type: 'Project',
   },
   {
@@ -59,9 +84,9 @@ export const projects = [
     description:
       'Face Mask Detection is a computer vision-based deep learning project that identifies whether a person is wearing a mask or not in real-time. Built using MobileNetV2 and OpenCV for efficient edge-deployment and low-latency inference.',
     pdf_url: '/face-mask-detection-report.pdf',
-    github_url: 'https://github.com/rohailahmad-code/Face-Mask-Detection',
+    github_url: 'https://github.com/rohailforty2/Face-Mask-Detection',
     live_demo_url: null,
-    image: 'images/mask-detection.png',
+    image: 'images/mask-detection.webp',
     type: 'Project',
   },
 ];
