@@ -71,7 +71,7 @@ export default function Home({ projects }) {
 
               {/* Contact Links Row */}
               <div className="mt-8 flex flex-wrap gap-x-2 gap-y-1 text-sm text-zinc-500 dark:text-zinc-400 font-medium">
-                <a href="mailto:rohailahmad2226@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">Email</a>
+                <a href="mailto:priv.rohail6796@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">Email</a>
                 <span>/</span>
                 <a href={assetPath('ROHAIL_CV.pdf')} target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">CV</a>
                 <span>/</span>
